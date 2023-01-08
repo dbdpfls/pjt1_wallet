@@ -1,0 +1,21 @@
+{
+    "name": "ark Wallet",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+          "48": "icon48.png"
+        },
+        "default_title": "ark Wallet"
+      },
+    "icons": {
+        "48": "icon48.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
